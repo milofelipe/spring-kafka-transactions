@@ -15,7 +15,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import javax.persistence.EntityManagerFactory;
 
 @Configuration
-@EnableScheduling
 public class AppConfig {
 
     @Bean
