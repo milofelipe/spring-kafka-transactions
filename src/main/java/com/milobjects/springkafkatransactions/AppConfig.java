@@ -10,7 +10,6 @@ import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.transaction.ChainedKafkaTransactionManager;
 import org.springframework.kafka.transaction.KafkaTransactionManager;
 import org.springframework.orm.jpa.JpaTransactionManager;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 import javax.persistence.EntityManagerFactory;
 
