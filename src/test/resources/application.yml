@@ -5,7 +5,6 @@ spring:
       transaction-id-prefix: tx-
       properties:
         enable.idempotence: true
-        transactional.id: tran-id-1
     consumer:
       group-id: group-1
       enable-auto-commit: false
